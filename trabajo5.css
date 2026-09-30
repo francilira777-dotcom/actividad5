@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #dff6ff, #e4ddff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Tarjeta principal */
+.contenedor {
+    width: 450px;
+    background: white;
+    padding: 40px;
+    border-radius: 22px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Título */
+h1 {
+    color: #4b4bb3;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+/* Descripción */
+.contenedor p {
+    color: #666;
+    font-size: 17px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+/* Input */
+input[type="number"] {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #d5d5e8;
+    border-radius: 12px;
+    font-size: 17px;
+    text-align: center;
+    outline: none;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+/* Efecto al seleccionar el input */
+input[type="number"]:focus {
+    border-color: #6464c7;
+    box-shadow: 0 0 10px rgba(100, 100, 199, 0.25);
+}
+
+/* BOTÓN */
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #5b5bc4, #7b5fc9);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(91, 91, 196, 0.3);
+}
+
+/* Efecto del botón */
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(91, 91, 196, 0.4);
+}
+
+/* Cuando se presiona */
+button:active {
+    transform: translateY(1px);
+}
+
+/* Título resultado */
+h2 {
+    margin-top: 30px;
+    margin-bottom: 12px;
+    color: #4b4bb3;
+    font-size: 21px;
+}
+
+/* Resultado */
+#resultado {
+    background: #f5f5ff;
+    border-radius: 12px;
+    padding: 18px;
+    min-height: 55px;
+    margin-bottom: 0 !important;
+    color: #444;
+    font-weight: bold;
+    font-size: 17px;
+}
